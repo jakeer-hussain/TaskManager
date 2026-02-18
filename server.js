@@ -6,7 +6,6 @@ require("dotenv").config();
 
 console.log("server.js");
 
-dotenv.config();
 connectDB();
 
 const app = express();
